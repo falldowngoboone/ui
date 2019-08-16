@@ -1,0 +1,32 @@
+{
+  "name": "@falldowngoboone/button",
+  "version": "0.1.0",
+  "description": "The button component for UI",
+  "author": "Ryan Boone <falldowngoboone@gmail.com>",
+  "homepage": "https://github.com/falldowngoboone/ui#readme",
+  "license": "MIT",
+  "main": "lib/button.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "peerDependencies": {
+    "react": "^16.9.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/falldowngoboone/ui.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/falldowngoboone/ui/issues"
+  }
+}

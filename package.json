@@ -1,0 +1,26 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "create": "lerna create",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@storybook/addon-actions": "^5.2.0-beta.29",
+    "@storybook/addon-links": "^5.2.0-beta.29",
+    "@storybook/addons": "^5.2.0-beta.29",
+    "@storybook/react": "^5.2.0-beta.29",
+    "@types/node": "^12.7.1",
+    "@types/react": "^16.9.1",
+    "@types/storybook__react": "^4.0.2",
+    "@types/webpack": "^4.32.1",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.6",
+    "lerna": "^3.16.4",
+    "react": "^16.9.0",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {}
+}
