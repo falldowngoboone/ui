@@ -5,7 +5,10 @@
   "author": "Ryan Boone <falldowngoboone@gmail.com>",
   "homepage": "https://github.com/falldowngoboone/ui#readme",
   "license": "MIT",
+  "source": "src/button.tsx",
   "main": "lib/button.js",
+  "module": "lib/button.mjs",
+  "unpkg": "lib/button.umd.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -14,7 +17,7 @@
     "lib"
   ],
   "peerDependencies": {
-    "react": "^16.9.0"
+    "react": "^16.8.0"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.com/"
@@ -24,7 +27,8 @@
     "url": "git+https://github.com/falldowngoboone/ui.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "microbundle"
   },
   "bugs": {
     "url": "https://github.com/falldowngoboone/ui/issues"
