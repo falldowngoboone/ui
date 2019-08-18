@@ -5,7 +5,7 @@
     "create": "lerna create",
     "storybook": "start-storybook -p 6006",
     "build:storybook": "build-storybook",
-    "build:all": "lerna run build -- -- --tsconfig ./tsconfig.json --jsx React.createElement --external react"
+    "build:all": "lerna run build"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",

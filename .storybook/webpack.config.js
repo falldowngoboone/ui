@@ -3,10 +3,7 @@ module.exports = ({ config }) => {
     test: /\.(ts|tsx)$/,
     use: [
       {
-        loader: require.resolve("awesome-typescript-loader"),
-        options: {
-          configFileName: "tsconfig.storybook.json"
-        }
+        loader: require.resolve("awesome-typescript-loader")
       }
     ]
   });
