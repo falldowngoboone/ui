@@ -62,3 +62,6 @@ typings/
 
 # build artifacts
 lib
+
+# ts build info
+*.tsbuildinfo

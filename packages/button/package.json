@@ -30,12 +30,20 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
-    "build": "microbundle --jsx React.createElement --tsconfig ./tsconfig.build.json"
+    "build": "npm run clean && npm run compile",
+    "clean": "rm -rf ./lib && rm -rf tsconfig.build.tsbuildinfo",
+    "compile": "tsc -b tsconfig.build.json",
+    "prepublishOnly": "npm run build"
   },
   "bugs": {
     "url": "https://github.com/falldowngoboone/ui/issues"
   },
   "dependencies": {
+    "@emotion/core": "^10.0.16",
+    "@emotion/styled": "^10.0.15",
     "@falldowngoboone/styled": "^0.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.5.3"
   }
 }

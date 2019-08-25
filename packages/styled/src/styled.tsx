@@ -1,1 +1,3 @@
-export default function () {}
+import styled from "@emotion/styled";
+
+export default styled;

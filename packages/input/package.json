@@ -1,15 +1,15 @@
 {
-  "name": "@falldowngoboone/styled",
+  "name": "@falldowngoboone/input",
   "version": "0.1.0",
-  "description": "A styled component wrapper",
+  "description": "The base input component for UI",
   "author": "Ryan Boone <falldowngoboone@gmail.com>",
   "homepage": "https://github.com/falldowngoboone/ui#readme",
   "license": "MIT",
-  "source": "src/styled.tsx",
-  "main": "lib/styled.js",
-  "types": "lib/styled.d.ts",
-  "module": "lib/styled.mjs",
-  "unpkg": "lib/styled.umd.js",
+  "source": "src/input.tsx",
+  "main": "lib/input.js",
+  "types": "lib/input.d.ts",
+  "module": "lib/input.mjs",
+  "unpkg": "lib/input.umd.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -40,7 +40,8 @@
   },
   "dependencies": {
     "@emotion/core": "^10.0.16",
-    "@emotion/styled": "^10.0.15"
+    "@emotion/styled": "^10.0.15",
+    "@falldowngoboone/styled": "^0.1.0"
   },
   "devDependencies": {
     "typescript": "^3.5.3"

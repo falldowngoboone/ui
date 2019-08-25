@@ -3,9 +3,12 @@
   "private": true,
   "scripts": {
     "create": "lerna create",
-    "storybook": "start-storybook -p 6006",
+    "start": "start-storybook -p 6006",
     "build:storybook": "build-storybook",
-    "build:all": "lerna run build"
+    "build:all": "lerna run build",
+    "clean": "lerna clean",
+    "bootstrap": "lerna bootstrap --hoist",
+    "postinstall": "npm run bootstrap && npm run build:all"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
@@ -20,7 +23,6 @@
     "awesome-typescript-loader": "^5.2.1",
     "babel-loader": "^8.0.6",
     "lerna": "^3.16.4",
-    "microbundle": "^0.12.0-next.4",
     "react": "^16.9.0",
     "typescript": "^3.5.3"
   },

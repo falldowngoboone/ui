@@ -4,7 +4,8 @@
     "baseUrl": "./packages",
     "paths": {
       "@falldowngoboone/button": ["button/src/button"],
-      "@falldowngoboone/styled": ["button/src/styled"]
+      "@falldowngoboone/input": ["input/src/input"],
+      "@falldowngoboone/styled": ["styled/src/styled"]
     }
   }
 }
